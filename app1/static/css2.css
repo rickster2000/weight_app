@@ -1,0 +1,27 @@
+body{background-color: red;}
+
+#content_wrapper{width:95%;
+                 margin: 0 auto;}
+
+#navbar{width:100%;
+       display: flex;
+       background-color: green;}
+
+.nav_item{flex:1;
+   border: 1px solid blue;}
+
+/* Media query for mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; /* Horizontal layout for mobile */
+    }
+}
+
+.image1{width:90%;
+ }
+
+ .container_image{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+
+}
